@@ -1,0 +1,30 @@
+/* Nav Bar*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    color: black;
+}
+.nav-btn{
+    display: flex;
+    align-items: center;
+}
+.nav-btn button{
+    border: none;
+    padding: 15px 32px;
+    background-color: blue;
+}
+.navbar-title span{
+    color: blue;
+}
