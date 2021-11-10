@@ -1,7 +1,7 @@
 /* Nav Bar*/
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 nav {
@@ -73,13 +73,14 @@ nav li a {
     margin: auto;
     justify-content: space-between;
     padding: 10px 0;
+    width: 400px;
 
 }
 
 .main-content-btn button {
     background-color: transparent;
     border: 3px solid white;
-    padding: 15px 35px;
+    padding: 10px 20px;
     color: white;
     font-weight: 600;
 }
