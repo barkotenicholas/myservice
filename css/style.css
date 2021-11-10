@@ -160,7 +160,7 @@ nav li a {
     align-items: center;
     justify-content: space-between;
     width: 90%;
-     margin-bottom: 50px;
+     margin: 50px;
 }
 
 .airline-item {
@@ -192,6 +192,7 @@ nav li a {
 
 .contact-details {
     color: white;
+    margin: 50px;
     width: 300px;
 }
 
@@ -206,6 +207,7 @@ nav li a {
 }
 
 .contact-form {
+    margin: 50px;
     border-radius: 5px;
     background-color: #f2f2f2;
     width: 500px;
