@@ -124,6 +124,7 @@ nav li a {
     clear: both;
     display: flex;
     flex-direction: column;
+    height: 40rem;
     align-items: center;
 }
 
