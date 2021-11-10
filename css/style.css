@@ -3,10 +3,12 @@
     display: flex;
     justify-content: space-between;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
 }
+
 nav li {
     display: inline;
     align-items: center;
@@ -19,24 +21,27 @@ nav li a {
     font-weight: 600;
     color: black;
 }
-.nav-btn{
+
+.nav-btn {
     display: flex;
     align-items: center;
 }
-.nav-btn button{
+
+.nav-btn button {
     border: none;
     padding: 15px 40px;
     background-color: blue;
     color: white;
     font-weight: 600;
 }
-.navbar-title span{
+
+.navbar-title span {
     color: blue;
 }
 
 
 /* main content section*/
-.main-content{
+.main-content {
     padding-top: 100px;
     padding-bottom: 100px;
     background-image: url("../images/bg.png");
@@ -46,7 +51,8 @@ nav li a {
     flex-direction: column;
     align-items: center;
 }
-.main-content h1{
+
+.main-content h1 {
     color: white;
     font-size: 50px;
     display: flex;
@@ -54,21 +60,23 @@ nav li a {
     align-items: center;
     font-weight: 900;
 }
-.main-content p{
+
+.main-content p {
     text-align: center;
     width: 60%;
     color: white;
     font-weight: 500;
 }
-.main-content-btn{
+
+.main-content-btn {
     display: flex;
     margin: auto;
     justify-content: space-between;
     padding: 10px 0;
-    
+
 }
 
-.main-content-btn button{
+.main-content-btn button {
     background-color: transparent;
     border: 3px solid white;
     padding: 15px 35px;
@@ -77,32 +85,37 @@ nav li a {
 }
 
 /* About us section*/
-.about-us-content{
+.about-us-content {
     float: left;
     margin-left: 50px;
     margin-top: 50px;
     width: 500px;
 }
-.about-us h2{
+
+.about-us h2 {
     font-weight: 500;
 
 }
-.about-us p{
+
+.about-us p {
     font-size: normal;
 }
-.about-us button{
+
+.about-us button {
     border: none;
     padding: 15px 40px;
     background-color: blue;
     color: white;
-    font-weight: 600; 
+    font-weight: 600;
 }
-.about-us img{
+
+.about-us img {
     height: 400px;
     float: right;
 }
+
 /* reapir section*/
-.repair{
+.repair {
     background-image: url("../images/Rectangle\ 11.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,55 +125,129 @@ nav li a {
     flex-direction: column;
     align-items: center;
 }
-.repair h2{
+
+.repair h2 {
     color: white;
 }
-.repair h1{
+
+.repair h1 {
     color: white;
     text-align: center;
 }
-.repair button{
+
+.repair button {
     border: none;
     padding: 15px 40px;
     background-color: blue;
     color: white;
-    font-weight: 600; 
+    font-weight: 600;
 }
+
 /* Our Services section*/
-.ourservices{
+.ourservices {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.ourservices >h1{
+
+.ourservices>h1 {
     font-size: 40px;
     font-weight: 600;
 }
-.airline{
+
+.airline {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width:90%;
+    width: 90%;
 
 }
-.airline-item{
+
+.airline-item {
     width: 300px;
     height: 350px;
-    border:1px solid grey;
+    border: 1px solid grey;
     border-radius: 20px;
     background-color: white;
     box-shadow: 2px 3px #888888;
     overflow: hidden;
 
 }
-.airline-item > img{
+
+.airline-item>img {
     width: 100%;
 }
-.item{
+
+.item {
     margin-left: 10px;
 }
 
 /* footer section*/
-.footer{
+.footer {
     background-color: rgb(7, 102, 180);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.contact-details {
+    color: white;
+    width: 300px;
+}
+
+.contact-details h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.contact-details h2 {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 500px;
+    padding: 20px;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+}
+input[type=submit]{
+    background-color: #2971cf;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Footer copy right section*/
+.footer-copyright{
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+}
+.footer-copyright span{
+    color: grey;
+    font-size: 20px;
 }
