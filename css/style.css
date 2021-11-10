@@ -3,7 +3,10 @@
     display: flex;
     justify-content: space-between;
 }
-
+nav{
+    display: flex;
+    align-items: center;
+}
 nav li {
     display: inline;
     align-items: center;
@@ -22,9 +25,142 @@ nav li a {
 }
 .nav-btn button{
     border: none;
-    padding: 15px 32px;
+    padding: 15px 40px;
     background-color: blue;
+    color: white;
+    font-weight: 600;
 }
 .navbar-title span{
     color: blue;
+}
+
+
+/* main content section*/
+.main-content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content h1{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 900;
+}
+.main-content p{
+    text-align: center;
+    width: 60%;
+    color: white;
+    font-weight: 500;
+}
+.main-content-btn{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px 0;
+    
+}
+
+.main-content-btn button{
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 15px 35px;
+    color: white;
+    font-weight: 600;
+}
+
+/* About us section*/
+.about-us-content{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 500px;
+}
+.about-us h2{
+    font-weight: 500;
+
+}
+.about-us p{
+    font-size: normal;
+}
+.about-us button{
+    border: none;
+    padding: 15px 40px;
+    background-color: blue;
+    color: white;
+    font-weight: 600; 
+}
+.about-us img{
+    height: 400px;
+    float: right;
+}
+/* reapir section*/
+.repair{
+    background-image: url("../images/Rectangle\ 11.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.repair h2{
+    color: white;
+}
+.repair h1{
+    color: white;
+    text-align: center;
+}
+.repair button{
+    border: none;
+    padding: 15px 40px;
+    background-color: blue;
+    color: white;
+    font-weight: 600; 
+}
+/* Our Services section*/
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ourservices >h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.airline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+
+}
+.airline-item{
+    width: 300px;
+    height: 350px;
+    border:1px solid grey;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 3px #888888;
+    overflow: hidden;
+
+}
+.airline-item > img{
+    width: 100%;
+}
+.item{
+    margin-left: 10px;
+}
+
+/* footer section*/
+.footer{
+    background-color: rgb(7, 102, 180);
 }
