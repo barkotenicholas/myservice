@@ -14,7 +14,7 @@ This is a myservice website
 
 * clone it to your desktop 
 ```bash
- git clone  https://github.com/barkotenicholas/Lettuceeat.git
+ git clone  https://github.com/barkotenicholas/myservice.git
  cd Lettuceeat
  code .
   ```
